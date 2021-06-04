@@ -1,4 +1,6 @@
 rankall <- function(outcome, num = "best") { 
+    """this function ranks all hospitals in a state based on mortality rate and ailment specified 
+    """
     ## Read outcome data
     outcome_data <- read.csv("outcome-of-care-measures.csv")
     
